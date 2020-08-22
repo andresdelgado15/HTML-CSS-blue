@@ -1,0 +1,15 @@
+h1{
+    background-color: salmon;
+}
+h2{
+    background-color: blueviolet;
+    display: inline-block;/*linea*/
+    padding: 20px;
+    width: 27%;
+    margin: 20px;
+
+}
+.columna, a{
+    background-color: aquamarine;
+    display: block;
+}

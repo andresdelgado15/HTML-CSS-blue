@@ -1,0 +1,16 @@
+h1{
+    color: 	#000080;
+    background-color: 	#00FFFF;
+    /* margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 100px; esto es para margen inferion con bottom */
+    margin: 40px 10px 30px 50px;
+   
+}
+p{
+    color: rgba(216, 26, 13, 0.815);
+    background-color: rgb(231, 210, 18);
+    margin-left: 100px;
+    margin-right: 100px;
+}

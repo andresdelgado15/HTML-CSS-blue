@@ -1,0 +1,19 @@
+nav{
+color: rgba(223, 74, 106, 0.712);
+background-color:#e69412  ;
+padding: 15px;
+}
+.columnas{
+    color: whitesmoke;
+    background-color: #b61f1f;
+    padding: 20px;
+    width: 25%;
+    padding:15px;
+    margin: auto;
+    margin-top: 15px;
+
+}
+.flexible{
+    /* para que se coloque flexible es decir se puedan colocar de forma horizontal */
+    display: flex;
+}

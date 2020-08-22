@@ -1,0 +1,44 @@
+.nav-enlace {
+  color: whitesmoke;
+  background: #ff5200;
+  padding: 10px 50px;
+  text-decoration: none;
+  display: inline-block;
+}
+.nav-enlace:hover {
+  background: #6f0000;
+}
+nav {
+  background: #00a1ab;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-button {
+  padding: 10px 50px;
+  background: #ff5200;
+  color: white;
+  border: 3px solid #ffff;
+  display: none;
+}
+/* media querie, para cuando se necesita hacer restricciones */
+@media (max-width: 600px) {
+  nav {
+    background: #00a1ab;
+    flex-direction: column;
+    padding: 2px;
+  }
+  .nav-enlace {
+    margin: 2px 0px;
+  }
+  .nav-button {
+    display: inline-block;
+  }
+  .nav-button:hover{
+      background: #6f0000;
+  }
+  .desaparece{
+      display: none;
+  }
+}

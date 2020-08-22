@@ -1,0 +1,55 @@
+.container {
+  margin: 10px auto;
+  width: 90%;
+}
+h2 {
+  font-family: "Bangers", cursive;
+}
+p {
+  font-family: "Shadows Into Light", cursive;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.text-center {
+  text-align: center;
+}
+.precio {
+  color: #68b0ab;
+  font-size: 60px;
+}
+.columna {
+  background: #faf3dd;
+  border: 1.2px solid #c8d5b9;
+  margin: auto;
+  padding: 10px;
+  border-radius: 7px;
+  box-shadow: 7px 7px 5px #c8d5b9;
+  width: 23%;
+  box-sizing: border-box;/* REsponsive  para tomar el padding y el margin cunado queremos volerlo responsive, necesitamos colocar el margin auto*/
+  
+}
+.btn-precio {
+  background: #68b0ab;
+  color: #faf3dd;
+  display: block; /*para cambiar un elementeo que es de line a a un elemento de bloque */
+  border-radius: 7px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.btn-precio:hover {
+  background: #8fc0a9;
+}
+@media (max-width: 1000px){
+    .columna{
+        width: 45%;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 600px){
+    .columna{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
