@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="saludar"></h1>
+    <h1 id="suma"> El resultado de la suma es: </h1>
+
+
+
+    <!-- 
+Empieza el archivo de javascript -->
+    <script>
+        //funcion numero uno
+        /******************************************************************/
+        var saludarId = document.getElementById('saludar');
+
+        // function saludar(nombre) {
+        //     return 'Hola, como estas hermosa ' + nombre;
+        // }
+        var saludar = nombre => 'hola, como estas ' + nombre;
+        saludarId.innerHTML = saludar('jennifer');
+
+        //funcion numero dos
+        /******************************************************************/
+        var sumaId = document.getElementById('suma');
+
+        var suma = (n1, n2) => {
+            var n3 = 2;
+            return n1+n2+n3;
+        };
+            
+        
+        sumaId.innerHTML += suma(5, 10);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+
+
+
+
+</body>
+
+</html>
